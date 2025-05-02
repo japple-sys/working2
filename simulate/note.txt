@@ -1,0 +1,26 @@
+here is a example of the strategy, this is with just one set of parameters, 
+ideally we could run and backtest multiple settings and parameters at once to find the best fit and be able to see graphs and visuals of trade logs for each backtest:
+
+### **Strategy: Horizontal Line Retracement Play**
+
+1. **Identify Key Levels**: The horizontal lines (e.g., 5,530.00, 5,646.75, etc.) act as support/resistance. 
+   Focus on levels where price has previously reacted (e.g., 5,135.00 is the current price level with a strong drop noted).
+
+2. **Entry Condition**:  
+   - **Long Trade**: Enter **2 points above a horizontal line** (e.g., 5,137.25 if using 5,135.00) **only after**:  
+     1. Price has risen **at least two lines higher** (e.g., to 5,237.25 or above).  
+     2. Then **retraces back** to your entry level (5,137.25).  
+   - *Rationale*: Confirms upward momentum before a pullback, increasing likelihood of continuation.
+
+3. **Stop Loss**:  
+   - Place stop **100 ticks below entry** (e.g., 5,127.25 for a long at 5,137.25).  
+   - *Note*: 100 ticks in S&P E-mini = 25 points (1 tick = 0.25 points). Adjust if you meant 100 points (e.g., stop at 5,037.25).
+
+4. **Profit Target**: 
+   - Set target **100 ticks above entry** (e.g., 5,162.25 for a long at 5,137.25).  
+
+5. **Example from Chart**:  
+   - If price rises from 5,135.00 to 5,237.25 (+2 lines), then drops back to 5,137.25, go long with:  
+     - Entry: 5,137.25  
+     - Stop: 5,127.25 (or 5,037.25 if 100 points)  
+     - Target: 5,162.25 (or 5,237.25 if 100 points).  
