@@ -1,0 +1,30 @@
+{
+  "trades": [
+    {
+      "tokenAddress": "4aR3jtFKWuYzkNE27WG4V7Jt6DDhwKcc2qjzN5Tkpump",
+      "boughtAmount": 274423234,
+      "BuyAt": "1738971232",
+      "SellAt": null,
+      "Initialinvest": 0.1,
+      "BuyFees": 0.0001,
+      "SellFees": null,
+      "SwapBuyFees": 0.000025,
+      "SwapSellFees": "68008087",
+      "PNL": null,
+      "isConfirmed": false
+    },
+    {
+      "tokenAddress": "Ddf3hkvQjCwYjKXnoQyRGnBw59h3E2yDSG28CbmKqvQi",
+      "boughtAmount": "247800654",
+      "BuyAt": "9:08:48 PM",
+      "SellAt": null,
+      "Initialinvest": 0.00005,
+      "BuyFees": 0.0001,
+      "SellFees": null,
+      "SwapBuyFees": "125",
+      "SwapSellFees": null,
+      "PNL": null,
+      "isConfirmed": true
+    }
+  ]
+}

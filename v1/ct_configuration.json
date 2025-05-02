@@ -1,0 +1,19 @@
+{
+    "wallets": [
+        {
+            "walletName": "Trading Wallet 1",
+            "walletAddress": "kjshaNgZt7HQv5Ye5NLi7rJhgdVqcv5zgwdDohbs2TM",
+            "tokenAddress": [
+                "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+                "bDLJBkRRkZyD7gcYBXYKg99PKdMBHpzwwCsgTyWpump",
+                "4aR3jtFKWuYzkNE27WG4V7Jt6DDhwKcc2qjzN5Tkpump",
+                "5cJxvfHcJWRLBZMEkXAdow7EUzLY2HLR5oQ9yBTcpump",
+                "Cvto7pTG89RSEkX7CmcsTyP2QArt7kGtVniXKt5Y82dw",
+                "Ddf3hkvQjCwYjKXnoQyRGnBw59h3E2yDSG28CbmKqvQi"
+            ],
+            "amount": 0.00005,
+            "takeProfit": 5,
+            "stopLoss": 2
+        }
+    ]
+}
